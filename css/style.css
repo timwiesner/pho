@@ -1,6 +1,8 @@
-
-
 .introMessage {
 	margin: auto;
 	text-align: center;
+}
+
+.yelpIcon {
+	color: #d32323;
 }
