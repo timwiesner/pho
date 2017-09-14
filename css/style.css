@@ -1,8 +1,16 @@
+/* Intro Nav*/
 .introMessage {
 	margin: auto;
 	text-align: center;
+}
+/* End Intro Nav*/
+
+/* Icons */
+.fa-facebook-square {
+ color: #3b5998
 }
 
 .fa-yelp{
 	color: #d32323;
 }
+/* End Icons */
