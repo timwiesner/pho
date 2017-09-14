@@ -1,3 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
+body {
+	background-color: #212529;
+}
+
 /* Container*/
 .container-fluid {
 	margin-top: 20px;
@@ -19,6 +46,10 @@
 	text-align: center;
 }
 
+/* Menu Tabs*/
+.tab-content {
+	margin-top: 1%;
+}
 
 /* Icons */
 .fa-facebook-square {
