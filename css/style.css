@@ -1,20 +1,19 @@
 /* Container*/
 .red {
-	/*background-color: #380608;*/
 	background: rgba(56, 6, 8, .95);
 }
 
 .norm {
-	background: rgb(255, 255, 255);
+	background: rgb(230, 230, 230);
 }
-/* End Container*/
+
 
 /* Intro Nav*/
 .introMessage {
 	margin: auto;
 	text-align: center;
 }
-/* End Intro Nav*/
+
 
 /* Icons */
 .fa-facebook-square {
@@ -24,4 +23,3 @@
 .fa-yelp{
 	color: #d32323;
 }
-/* End Icons */
