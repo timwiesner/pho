@@ -1,4 +1,9 @@
 /* Container*/
+.container-fluid {
+	margin-top: 20px;
+	max-width: 80%;
+}
+
 .red {
 	background: rgba(56, 6, 8, .95);
 }
