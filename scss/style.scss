@@ -1,0 +1,52 @@
+// === CONTENT ===
+$content-width: 992px;
+
+
+body {
+	background-color: #212529;
+}
+
+/* Container*/
+.container-fluid {
+	margin-top: 20px;
+	width: $content-width;
+  @media only screen and (max-width: 992px) {
+    width: auto;
+    max-width: $content-width;
+  }
+}
+
+
+.red {
+	background: rgba(56, 6, 8, .95);
+}
+
+.norm {
+	background: rgb(230, 230, 230);
+}
+
+
+/* Intro Nav*/
+.introMessage {
+	margin: auto;
+	text-align: center;
+}
+
+/* Menu Tabs*/
+.tab-content {
+	margin-top: 1%;
+}
+
+/* Icons */
+.fa-facebook-square {
+ color: #3b5998
+}
+
+.fa-yelp{
+	color: #d32323;
+}
+
+
+.footer {
+	color: white;
+}
