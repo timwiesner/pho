@@ -1,66 +1,49 @@
-html {
-  font-size: 14px;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
-}
-
-
 body {
-	background-color: #212529;
+  background-color: #212529;
 }
 
 /* Container*/
 .container-fluid {
-	margin-top: 20px;
-	max-width: 80%;
+  margin-top: 20px;
+  width: 992px;
+}
+@media only screen and (max-width: 992px) {
+  .container-fluid {
+    width: auto;
+    max-width: 992px;
+  }
 }
 
 .red {
-	background: rgba(56, 6, 8, .95);
+  background: rgba(56, 6, 8, 0.95);
 }
 
 .norm {
-	background: rgb(230, 230, 230);
+  background: #e6e6e6;
 }
-
 
 /* Intro Nav*/
 .introMessage {
-	margin: auto;
-	text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 /* Menu Tabs*/
 .tab-content {
-	margin-top: 1%;
+  margin-top: 1%;
 }
 
 /* Icons */
 .fa-facebook-square {
- color: #3b5998
+  color: #3b5998;
 }
 
-.fa-yelp{
-	color: #d32323;
+.fa-yelp {
+  color: #d32323;
 }
-
 
 .footer {
-	color: white;
+  color: white;
 }
+
+/*# sourceMappingURL=style.css.map */
