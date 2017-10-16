@@ -2,9 +2,18 @@
 $content-width: 992px;
 
 
+$primary-color: #8f2b26;
+$secondary-color: #f9f9f9;
+// $tertiary-color: #1eb3ba;
+
+$facebook-color: #3b5998;
+$yelp-color: #d32323;
+
 body {
-	background-color: #8f2b26;
+	background-color: $primary-color;
 }
+
+
 
 /* Container*/
 .container-fluid {
@@ -16,14 +25,21 @@ body {
   }
 }
 
-
-.red {
-	background: rgba(56, 6, 8, .95);
+a {
+	color: $secondary-color;
 }
 
-.norm {
-	background: rgb(230, 230, 230);
+a:hover {
+	color: #2b268f;
 }
+
+// .red {
+// 	background: rgba(56, 6, 8, .95);
+// }
+
+// .norm {
+// 	background: rgb(230, 230, 230);
+// }
 
 
 /* Intro Nav*/
@@ -39,11 +55,11 @@ body {
 
 /* Icons */
 .fa-facebook-square {
- color: #3b5998
+ color: $facebook-color;
 }
 
 .fa-yelp{
-	color: #d32323;
+	color: $yelp-color;
 }
 
 

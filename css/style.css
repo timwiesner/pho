@@ -13,12 +13,12 @@ body {
   }
 }
 
-.red {
-  background: rgba(56, 6, 8, 0.95);
+a {
+  color: #f9f9f9;
 }
 
-.norm {
-  background: #e6e6e6;
+a:hover {
+  color: #2b268f;
 }
 
 /* Intro Nav*/
