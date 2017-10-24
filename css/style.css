@@ -11,12 +11,26 @@
 
 body {
   margin-top: 20px;
+  background-color: #8f2b26;
 }
 
-header {
-  max-width: 500px;
+.main {
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: auto;
   text-align: center;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.iconImg {
+  max-width: 60%;
+}
+
+.menu {
+  background-color: #8f2b26;
 }
 
 /* Icons */

@@ -22,18 +22,29 @@ $yelp-color: #d32323;
 
 body {
 	margin-top: 20px;
+	background-color: $primary-color;
+
 }
 
-/* Intro Nav*/
-.introMessage {
-	margin: auto;
-	text-align: center;
+.main {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  text-align: center;
 }
 
-/* Menu Tabs*/
-// .tab-content {
-// 	margin-top: 1%;
-// }
+.white {
+	background-color: #ffffff;
+}
+
+.iconImg {
+  max-width: 60%;
+}
+
+.menu {
+	background-color: $primary-color;
+}
+
 
 /* Icons */
 .fa-facebook-square {
