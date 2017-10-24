@@ -1,7 +1,3 @@
-body {
-  background-color: #8f2b26;
-}
-
 /* Container*/
 .container-fluid {
   width: 992px;
@@ -13,23 +9,14 @@ body {
   }
 }
 
-a {
-  color: #f9f9f9;
+body {
+  margin-top: 20px;
 }
 
-a:hover {
-  color: #2b268f;
-}
-
-/* Intro Nav*/
-.introMessage {
+header {
+  max-width: 500px;
   margin: auto;
   text-align: center;
-}
-
-/* Menu Tabs*/
-.tab-content {
-  margin-top: 1%;
 }
 
 /* Icons */
@@ -39,10 +26,6 @@ a:hover {
 
 .fa-yelp {
   color: #d32323;
-}
-
-.footer {
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

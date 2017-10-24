@@ -4,14 +4,9 @@ $content-width: 992px;
 
 $primary-color: #8f2b26;
 $secondary-color: #f9f9f9;
-// $tertiary-color: #1eb3ba;
 
 $facebook-color: #3b5998;
 $yelp-color: #d32323;
-
-body {
-	background-color: $primary-color;
-}
 
 
 
@@ -25,22 +20,9 @@ body {
   }
 }
 
-a {
-	color: $secondary-color;
+body {
+	margin-top: 20px;
 }
-
-a:hover {
-	color: #2b268f;
-}
-
-// .red {
-// 	background: rgba(56, 6, 8, .95);
-// }
-
-// .norm {
-// 	background: rgb(230, 230, 230);
-// }
-
 
 /* Intro Nav*/
 .introMessage {
@@ -49,9 +31,9 @@ a:hover {
 }
 
 /* Menu Tabs*/
-.tab-content {
-	margin-top: 1%;
-}
+// .tab-content {
+// 	margin-top: 1%;
+// }
 
 /* Icons */
 .fa-facebook-square {
@@ -60,9 +42,4 @@ a:hover {
 
 .fa-yelp{
 	color: $yelp-color;
-}
-
-
-.footer {
-	color: white;
 }
