@@ -39,7 +39,34 @@ body {
 }
 
 .iconImg {
-  max-width: 50%;
+  max-width: 60%;
+  margin-bottom: 10px;
+}
+
+.menuTitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 393px) {
+  .menu h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .menu h5 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .menu p {
+    font-size: 12px;
+  }
+}
+
+.nav {
   margin-bottom: 10px;
 }
 
