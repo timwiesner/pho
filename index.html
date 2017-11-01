@@ -40,416 +40,538 @@
 		<div class="jumbotron">
 			<h2 class="menuTitle">Menu</h2>
 
-			<nav class="nav nav-pills flex-column flex-sm-row" id="myTab" role="tablist">
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link active" id="nav-appetizer-tab" data-toggle="tab" href="#nav-appetizer" role="tab" aria-controls="nav-appetizer" aria-selected="true">Appetizers</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-salad-tab" data-toggle="tab" href="#nav-salad" role="tab" aria-controls="nav-salad" aria-selected="false">Salads</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-sandwich-tab" data-toggle="tab" href="#nav-sandwich" role="tab" aria-controls="nav-sandwich" aria-selected="false">Sandwiches</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-vegetarian-tab" data-toggle="tab" href="#nav-vegetarian" role="tab" aria-controls="nav-vegetarian" aria-selected="false">Vegetarian</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-pho-tab" data-toggle="tab" href="#nav-pho" role="tab" aria-controls="nav-pho" aria-selected="false">Pho</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-special-tab" data-toggle="tab" href="#nav-special" role="tab" aria-controls="nav-special" aria-selected="false">Specials</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-bun-tab" data-toggle="tab" href="#nav-bun" role="tab" aria-controls="nav-bun" aria-selected="false">Bun</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-hutieu-tab" data-toggle="tab" href="#nav-hutieu" role="tab" aria-controls="nav-hutieu" aria-selected="false">Hu Tieu</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-rice-tab" data-toggle="tab" href="#nav-rice" role="tab" aria-controls="nav-rice" aria-selected="false">Rice</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-beverage-tab" data-toggle="tab" href="#nav-beverage" role="tab" aria-controls="nav-beverage" aria-selected="false">Beverages</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-smoothie-tab" data-toggle="tab" href="#nav-smoothie" role="tab" aria-controls="nav-smoothie" aria-selected="false">Smoothies</a>
-			  <a class="flex-sm-fill text-sm-center nav-item nav-link" id="nav-gf-tab" data-toggle="tab" href="#nav-gf" role="tab" aria-controls="nav-gf" aria-selected="false">GF | MSG</a>
-			</nav>
+			<div id="accordion" role="tablist">
 
-			<div class="tab-content" id="nav-tabContent">
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingOne">
+			      <h5 class="mb-0">
+			        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          Appetizers
+			        </a>
+			      </h5>
+			    </div>
 
-			  <div class="tab-pane fade show active" id="nav-appetizer" role="tabpanel" aria-labelledby="nav-appetizer-tab">
-					<h3>KHAI VỊ – Appetizers</h3>
+			    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+			      <div class="card-body">
+			      	<h4 class="menuCategory">KHAI VỊ – Appetizers</h4>
 
-					<h5>A-01 Chả Giò – Egg Rolls (4) <span>$3.75</span></h5>
-					<p>Deep Fried Vietnamese Style Egg Rolls</p>
+							<h5>A-01 Chả Giò – Egg Rolls (4) <span>$3.75</span></h5>
+							<p>Deep Fried Vietnamese Style Egg Rolls</p>
 
-					<h5>A-02 Gỏi Cuốn – Summer Rolls (2) <span>$3.50</span></h5>
-					<p>Pork &amp; Shrimp Wrapped w/ Noodles, Bean Sprouts, Cilantro &amp; Mint</p>
+							<h5>A-02 Gỏi Cuốn – Summer Rolls (2) <span>$3.50</span></h5>
+							<p>Pork &amp; Shrimp Wrapped w/ Noodles, Bean Sprouts, Cilantro &amp; Mint</p>
 
-					<h5>A-03 Bì Cuốn Chay – Vegetarian Summer Rolls (2) <span>$3.50</span></h5>
-					<p>Fried Tofu &amp; Mixed Vegetables Wrapped in Fresh Rice Paper</p>
+							<h5>A-03 Bì Cuốn Chay – Vegetarian Summer Rolls (2) <span>$3.50</span></h5>
+							<p>Fried Tofu &amp; Mixed Vegetables Wrapped in Fresh Rice Paper</p>
 
-					<h5>A-04 Cánh Gà Chiên Nước Mấm – Fried Chicken Wing (6) <span>$5.00</span></h5>
-					<p>Deep Fried Chicken Wings w/Special House Sauce</p>
+							<h5>A-04 Cánh Gà Chiên Nước Mấm – Fried Chicken Wing (6) <span>$5.00</span></h5>
+							<p>Deep Fried Chicken Wings w/Special House Sauce</p>
 
-					<h5>A-05 Bì Cuốn – Rolls (2) <span>$3.50</span></h5>
-					<p>Shredded Pork Wrapped w/ Fresh Mint</p>
+							<h5>A-05 Bì Cuốn – Rolls (2) <span>$3.50</span></h5>
+							<p>Shredded Pork Wrapped w/ Fresh Mint</p>
 
-					<h5>A-06 Gỏi Cuốn Thịt Nướng <span>$3.50</span></h5>
-					<p>Grilled Pork Wrapped w/ Noodles, Lettuce &amp; Mint</p>
+							<h5>A-06 Gỏi Cuốn Thịt Nướng <span>$3.50</span></h5>
+							<p>Grilled Pork Wrapped w/ Noodles, Lettuce &amp; Mint</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-salad" role="tabpanel" aria-labelledby="nav-salad-tab">
-			  	<h3>GỎI – Salad</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingTwo">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          Salads
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+			      <div class="card-body">
+			        <h4 class="menuCategory">GỎI – Salad</h4>
 
-					<h5>S-02 Gỏi Gà – Chicken Salad <span>$6.50</span></h5>
-					<p>Shredded Chicken Served w/ Mixed Cabbage &amp; Mint</p>
+							<h5>S-02 Gỏi Gà – Chicken Salad <span>$6.50</span></h5>
+							<p>Shredded Chicken Served w/ Mixed Cabbage &amp; Mint</p>
 
-					<h5>S-03 Gỏi Đu Đủ Tôm – Shrimp Papaya Salad <span>$7.25</span></h5>
-					<p>Shredded Green Papaya Served w/Shrimp, Mint &amp; Peanuts</p>
+							<h5>S-03 Gỏi Đu Đủ Tôm – Shrimp Papaya Salad <span>$7.25</span></h5>
+							<p>Shredded Green Papaya Served w/Shrimp, Mint &amp; Peanuts</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-sandwich" role="tabpanel" aria-labelledby="nav-sandwich-tab">
-					<h3>BÁNH MÌ – Vietnamese Sandwiches</h3>
-					<h6>Accompanied w/ Carrots, Cucumbers, Cilantro, and Sliced Jalapenos</h6>
-					<h6>EXPRESS COMBO - Add 2 Egg Rolls and a Smoothie for $4.00</h6>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Sandwiches
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">BÁNH MÌ – Vietnamese Sandwiches</h4>
+							<h6>Accompanied w/ Carrots, Cucumbers, Cilantro, and Sliced Jalapenos</h6>
+							<h6>EXPRESS COMBO - Add 2 Egg Rolls and a Smoothie for $4.00</h6>
 
-					<h5>B-01 Bánh Mì Đặc Biệt <span>$4.00</span></h5>
-					<p>Pâté, Ham &amp; Steamed Pork Ear Sandwich</p>
+							<h5>B-01 Bánh Mì Đặc Biệt <span>$4.00</span></h5>
+							<p>Pâté, Ham &amp; Steamed Pork Ear Sandwich</p>
 
-					<h5>B-02 Bánh Mì Pâté &amp; Ham <span>$4.00</span></h5>
-					<p>Pâté &amp; Ham Sandwich</p>
+							<h5>B-02 Bánh Mì Pâté &amp; Ham <span>$4.00</span></h5>
+							<p>Pâté &amp; Ham Sandwich</p>
 
-					<h5>B-03 Bánh Mì Pâté &amp; Chả Luạ <span>$4.00</span></h5>
-					<p>Pâté &amp; Steamed Pork Sandwich</p>
+							<h5>B-03 Bánh Mì Pâté &amp; Chả Luạ <span>$4.00</span></h5>
+							<p>Pâté &amp; Steamed Pork Sandwich</p>
 
-					<h5>B-05 Bánh Mì Thịt Nướng <span>$4.00</span></h5>
-					<p>Grilled Pork Sandwich</p>
+							<h5>B-05 Bánh Mì Thịt Nướng <span>$4.00</span></h5>
+							<p>Grilled Pork Sandwich</p>
 
-					<h5>B-06 Bánh Mì Gà Nướng <span>$4.00</span></h5>
-					<p>Grilled Chicken Sandwich</p>
+							<h5>B-06 Bánh Mì Gà Nướng <span>$4.00</span></h5>
+							<p>Grilled Chicken Sandwich</p>
 
-					<h5>B-07 Bánh Mì Gà Ngủ Vị <span>$4.00</span></h5>
-					<p>5 Spice Chicken Sandwich</p>
+							<h5>B-07 Bánh Mì Gà Ngủ Vị <span>$4.00</span></h5>
+							<p>5 Spice Chicken Sandwich</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-vegetarian" role="tabpanel" aria-labelledby="nav-vegetarian-tab">
-					<h3>MÓN CHAY – Vegetarian Dishes</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingFour">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			          Vegetarian
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">MÓN CHAY – Vegetarian Dishes</h4>
 
-					<h5>V-01 Bún Bì Chay <span>$7.50</span></h5>
-					<p>Mixed Vegetables &amp; Tofu w/ Vermicelli Noodles</p>
+							<h5>V-01 Bún Bì Chay <span>$7.50</span></h5>
+							<p>Mixed Vegetables &amp; Tofu w/ Vermicelli Noodles</p>
 
-					<h5>V-02 Bún Xào Chay <span>$7.50</span></h5>
-					<p>Stir-fried Bean Sprouts &amp; Lemongrass Tofu w/ Vermicelli Noodles</p>
+							<h5>V-02 Bún Xào Chay <span>$7.50</span></h5>
+							<p>Stir-fried Bean Sprouts &amp; Lemongrass Tofu w/ Vermicelli Noodles</p>
 
-					<h5>V-03 Bún Bò Nướng Chay <span>$7.50</span></h5>
-					<p>Grilled Lemongrass Tofu &amp; Bean Sprouts w/ Vermicelli Noodles</p>
+							<h5>V-03 Bún Bò Nướng Chay <span>$7.50</span></h5>
+							<p>Grilled Lemongrass Tofu &amp; Bean Sprouts w/ Vermicelli Noodles</p>
 
-					<h5>V-06 Cơm Bò Lúc Lắc Chay <span>$7.50</span></h5>
-					<p>Shaky Tofu &amp; Vegetables Served w/ Steam Rice</p>
+							<h5>V-06 Cơm Bò Lúc Lắc Chay <span>$7.50</span></h5>
+							<p>Shaky Tofu &amp; Vegetables Served w/ Steam Rice</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-pho" role="tabpanel" aria-labelledby="nav-pho-tab">
-					<h3>PHỞ – Noodle Soup</h3>
-					<h6>Pho Noodle Soup served w/ choice of meat accompanied w/ a side of bean sprouts, lime, sliced jalapenos, and basil leaves</h6>
-					<h6>Large $8.75 • Regular $7.75 • Kids $6.75 (12 and under)</h6>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingFive">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			          Pho
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">PHỞ – Noodle Soup</h4>
+							<h6>Pho Noodle Soup served w/ choice of meat accompanied w/ a side of bean sprouts, lime, sliced jalapenos, and basil leaves</h6>
+							<h6>Large $8.75 • Regular $7.75 • Kids $6.75 (12 and under)</h6>
 
-					<h5>P-01 Phở Đặc Biệt – Combination</h5>
-					<p>Sirloin, Flank Steak, Brisket, Tendon, Tripe &amp; Meatballs</p>
+							<h5>P-01 Phở Đặc Biệt – Combination</h5>
+							<p>Sirloin, Flank Steak, Brisket, Tendon, Tripe &amp; Meatballs</p>
 
-					<h5>P-02 Phở Nạm, Gầu, Gân, Sách</h5>
-					<p>Flank Steak, Brisket, Tendon &amp; Tripe</p>
+							<h5>P-02 Phở Nạm, Gầu, Gân, Sách</h5>
+							<p>Flank Steak, Brisket, Tendon &amp; Tripe</p>
 
-					<h5>P-03 Phở Tái Nạm, Gầu</h5>
-					<p>Sirloin, Flank Steak, Brisket</p>
+							<h5>P-03 Phở Tái Nạm, Gầu</h5>
+							<p>Sirloin, Flank Steak, Brisket</p>
 
-					<h5>P-04 Phở Tái Nạm, Sách</h5>
-					<p>Sirloin, Flank Steak &amp; Tripe</p>
+							<h5>P-04 Phở Tái Nạm, Sách</h5>
+							<p>Sirloin, Flank Steak &amp; Tripe</p>
 
-					<h5>P-05 Phở Tái Nạm, Gân</h5>
-					<p>Sirloin, Flank Steak &amp; Tendon</p>
+							<h5>P-05 Phở Tái Nạm, Gân</h5>
+							<p>Sirloin, Flank Steak &amp; Tendon</p>
 
-					<h5>P-06 Phở Tái Nạm, Bò Viên</h5>
-					<p>Sirloin, Flank Steak &amp; Meatballs</p>
+							<h5>P-06 Phở Tái Nạm, Bò Viên</h5>
+							<p>Sirloin, Flank Steak &amp; Meatballs</p>
 
-					<h5>P-07 Phở Tái, Bò Viên</h5>
-					<p>Sirloin &amp; Meatballs</p>
+							<h5>P-07 Phở Tái, Bò Viên</h5>
+							<p>Sirloin &amp; Meatballs</p>
 
-					<h5>P-08 Phở Tái, Nạm</h5>
-					<p>Sirloin &amp; Flank Steak</p>
+							<h5>P-08 Phở Tái, Nạm</h5>
+							<p>Sirloin &amp; Flank Steak</p>
 
-					<h5>P-09 Phở Tái, Gân</h5>
-					<p>Sirloin &amp; Tendon</p>
+							<h5>P-09 Phở Tái, Gân</h5>
+							<p>Sirloin &amp; Tendon</p>
 
-					<h5>P-10 Phở Tái, Gầu</h5>
-					<p>Sirloin &amp; Brisket</p>
+							<h5>P-10 Phở Tái, Gầu</h5>
+							<p>Sirloin &amp; Brisket</p>
 
-					<h5>P-11 Phở Tái, Sách</h5>
-					<p>Sirloin &amp; Tripe</p>
+							<h5>P-11 Phở Tái, Sách</h5>
+							<p>Sirloin &amp; Tripe</p>
 
-					<h5>P-12 Phở Tái</h5>
-					<p>Sirloin</p>
+							<h5>P-12 Phở Tái</h5>
+							<p>Sirloin</p>
 
-					<h5>P-13 Phở Tái, Nạm, Gầu, Gân, Sách</h5>
-					<p>Sirloin, Flank Steak, Brisket, Tendon &amp; Tripe</p>
+							<h5>P-13 Phở Tái, Nạm, Gầu, Gân, Sách</h5>
+							<p>Sirloin, Flank Steak, Brisket, Tendon &amp; Tripe</p>
 
-					<h5>P-14 Phở Chín, Nạm, Gầu, Gân, Sách</h5>
-					<p>Cooked Sirloin, Flank Steak, Brisket, Tendon &amp; Tripe</p>
+							<h5>P-14 Phở Chín, Nạm, Gầu, Gân, Sách</h5>
+							<p>Cooked Sirloin, Flank Steak, Brisket, Tendon &amp; Tripe</p>
 
-					<h5>P-15 Phở Bò Viên</h5>
-					<p>Meatballs</p>
+							<h5>P-15 Phở Bò Viên</h5>
+							<p>Meatballs</p>
 
-					<h5>P-16 Phở Gà</h5>
-					<p>Chicken</p>
+							<h5>P-16 Phở Gà</h5>
+							<p>Chicken</p>
 
-					<h5>P-17 Phở Tôm</h5>
-					<p>Shrimp</p>
+							<h5>P-17 Phở Tôm</h5>
+							<p>Shrimp</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-special" role="tabpanel" aria-labelledby="nav-special-tab">
-					<h3>ĐẶC BIỆT – Daily Special</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Specials
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">ĐẶC BIỆT – Daily Special</h4>
 
-					<h5>X-01 Bún Măng Vit <span>$10.50</span></h5>
-					<p>Noodle Soup w/ Bamboo Shoots &amp; Duck Meat Served On The Side</p>
+							<h5>X-01 Bún Măng Vit <span>$10.50</span></h5>
+							<p>Noodle Soup w/ Bamboo Shoots &amp; Duck Meat Served On The Side</p>
 
-					<h5>X-02 Bún Bò Huế <span>$9.00</span></h5>
-					<p>Spicy Noodle Soup Beef &amp; Pork Served w/Bean Sprouts &amp; Shredded Cabbage</p>
+							<h5>X-02 Bún Bò Huế <span>$9.00</span></h5>
+							<p>Spicy Noodle Soup Beef &amp; Pork Served w/Bean Sprouts &amp; Shredded Cabbage</p>
 
-					<h5>X-03 Phở Ap Chao <span>$9.50</span></h5>
-					<p>Pan-Fried, Flat Rice Noodle topped with the House Special Stir Fry</p>
+							<h5>X-03 Phở Ap Chao <span>$9.50</span></h5>
+							<p>Pan-Fried, Flat Rice Noodle topped with the House Special Stir Fry</p>
 
-					<h5>X-04 Mi Xao Gion <span>$9.50</span></h5>
-					<p>Crispy Bed of Egg Noodle topped with House Special Stir Fry</p>
+							<h5>X-04 Mi Xao Gion <span>$9.50</span></h5>
+							<p>Crispy Bed of Egg Noodle topped with House Special Stir Fry</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-bun" role="tabpanel" aria-labelledby="nav-bun-tab">
-					<h3>BÚN – Vermicelli Noodle Dishes</h3>
-					<h6>Vermicelli Noodles served with choice of meat accompanied by bean sprouts, lettuce, carrots, cucumber, fried scallions, mint, and crushed peanuts</h6>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Bun
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">BÚN – Vermicelli Noodle Dishes</h4>
+							<h6>Vermicelli Noodles served with choice of meat accompanied by bean sprouts, lettuce, carrots, cucumber, fried scallions, mint, and crushed peanuts</h6>
 
-					<h5>N-01 Bún Tôm, Thịt Nướng, Chả Giò – Combination <span>$8.75</span></h5>
-					<p>Grilled Shrimp, Pork &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-01 Bún Tôm, Thịt Nướng, Chả Giò – Combination <span>$8.75</span></h5>
+							<p>Grilled Shrimp, Pork &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-02 Bún Tôm, Thịt Nướng <span>$8.50</span></h5>
-					<p>Grilled Shrimp &amp; Pork w/ Vermicelli Noodles</p>
+							<h5>N-02 Bún Tôm, Thịt Nướng <span>$8.50</span></h5>
+							<p>Grilled Shrimp &amp; Pork w/ Vermicelli Noodles</p>
 
-					<h5>N-03 Bún Tôm Nướng <span>$8.50</span></h5>
-					<p>Grilled Shrimp w/ Vermicelli Noodles</p>
+							<h5>N-03 Bún Tôm Nướng <span>$8.50</span></h5>
+							<p>Grilled Shrimp w/ Vermicelli Noodles</p>
 
-					<h5>N-04 Bún Tôm Nướng, Chả Giò <span>$8.50</span></h5>
-					<p>Grilled Shrimp &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-04 Bún Tôm Nướng, Chả Giò <span>$8.50</span></h5>
+							<p>Grilled Shrimp &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-05 Bún Tôm Xào <span>$8.50</span></h5>
-					<p>Stir-fried Lemongrass &amp; Shrimp w/ Vermicelli Noodles</p>
+							<h5>N-05 Bún Tôm Xào <span>$8.50</span></h5>
+							<p>Stir-fried Lemongrass &amp; Shrimp w/ Vermicelli Noodles</p>
 
-					<h5>N-06 Bún Tôm Xào, Chả Giò <span>$8.50</span></h5>
-					<p>Stir-fried Lemongrass Shrimp &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-06 Bún Tôm Xào, Chả Giò <span>$8.50</span></h5>
+							<p>Stir-fried Lemongrass Shrimp &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-07 Bún Thịt Nướng <span>$8.00</span></h5>
-					<p>Grilled Pork w/ Vermicelli Noodles</p>
+							<h5>N-07 Bún Thịt Nướng <span>$8.00</span></h5>
+							<p>Grilled Pork w/ Vermicelli Noodles</p>
 
-					<h5>N-08 Bún Thịt Nướng, Chả Giò <span>$8.00</span></h5>
-					<p>Grilled Pork &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-08 Bún Thịt Nướng, Chả Giò <span>$8.00</span></h5>
+							<p>Grilled Pork &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-09 Bún Bò Nướng <span>$8.50</span></h5>
-					<p>Grilled Beef w/ Vermicelli Noodles</p>
+							<h5>N-09 Bún Bò Nướng <span>$8.50</span></h5>
+							<p>Grilled Beef w/ Vermicelli Noodles</p>
 
-					<h5>N-10 Bún Bò Nướng, Chả Giò <span>$8.50</span></h5>
-					<p>Grilled Beef &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-10 Bún Bò Nướng, Chả Giò <span>$8.50</span></h5>
+							<p>Grilled Beef &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-11 Bún Bò Xào <span>$8.50</span></h5>
-					<p>Stir-fried Lemongrass Beef w/ Vermicelli Noodles</p>
+							<h5>N-11 Bún Bò Xào <span>$8.50</span></h5>
+							<p>Stir-fried Lemongrass Beef w/ Vermicelli Noodles</p>
 
-					<h5>N-12 Bún Bò Xào, Chả Giò <span>$8.50</span></h5>
-					<p>Stir-fried Lemongrass Beef &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-12 Bún Bò Xào, Chả Giò <span>$8.50</span></h5>
+							<p>Stir-fried Lemongrass Beef &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-13 Bún Gà Nướng <span>$8.00</span></h5>
-					<p>Grilled Chicken w/ Vermicelli Noodles</p>
+							<h5>N-13 Bún Gà Nướng <span>$8.00</span></h5>
+							<p>Grilled Chicken w/ Vermicelli Noodles</p>
 
-					<h5>N-14 Bún Gà Nướng, Chả Giò <span>$8.00</span></h5>
-					<p>Grilled Chicken &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-14 Bún Gà Nướng, Chả Giò <span>$8.00</span></h5>
+							<p>Grilled Chicken &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-15 Bún Gà Xào <span>$8.00</span></h5>
-					<p>Stir-fried Lemongrass Chicken w/ Vermicelli Noodles</p>
+							<h5>N-15 Bún Gà Xào <span>$8.00</span></h5>
+							<p>Stir-fried Lemongrass Chicken w/ Vermicelli Noodles</p>
 
-					<h5>N-16 Bún Gà Xào, Chả Giò <span>$8.00</span></h5>
-					<p>Stir-fried Lemongrass Chicken &amp; Egg Rolls w/ Vermicelli Noodles</p>
+							<h5>N-16 Bún Gà Xào, Chả Giò <span>$8.00</span></h5>
+							<p>Stir-fried Lemongrass Chicken &amp; Egg Rolls w/ Vermicelli Noodles</p>
 
-					<h5>N-17 Bún Gà Ngủ Vị <span>$8.00</span></h5>
-					<p>5 Spice Chicken w/ Vermicelli Noodles</p>
+							<h5>N-17 Bún Gà Ngủ Vị <span>$8.00</span></h5>
+							<p>5 Spice Chicken w/ Vermicelli Noodles</p>
 
-					<h5>N-18 Bún Gà Ngủ Vị Xào <span>$8.00</span></h5>
-					<p>Stir-fried 5 Spice Chicken w/ Vermicelli Noodles</p>
+							<h5>N-18 Bún Gà Ngủ Vị Xào <span>$8.00</span></h5>
+							<p>Stir-fried 5 Spice Chicken w/ Vermicelli Noodles</p>
 
-					<h5>N-19 Bún Thịt Nướng, Tàu hủ ky <span>$8.50</span></h5>
-					<p>Grilled Pork &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
+							<h5>N-19 Bún Thịt Nướng, Tàu hủ ky <span>$8.50</span></h5>
+							<p>Grilled Pork &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
 
-					<h5>N-20 Bún Bò Nướng, Tàu Hủ Ky <span>$8.50</span></h5>
-					<p>Grilled Beef &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
+							<h5>N-20 Bún Bò Nướng, Tàu Hủ Ky <span>$8.50</span></h5>
+							<p>Grilled Beef &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
 
-					<h5>N-21 Bún Chả Giò, Tàu Hủ Ky <span>$8.50</span></h5>
-					<p>Egg Roll &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
+							<h5>N-21 Bún Chả Giò, Tàu Hủ Ky <span>$8.50</span></h5>
+							<p>Egg Roll &amp; Shrimp In A Bean Curd Wrap w/ Vermicelli Noodles</p>
 
-					<h5>N-22 Bún Chả Giò <span>$8.25</span></h5>
-					<p>4 Egg Rolls</p>
+							<h5>N-22 Bún Chả Giò <span>$8.25</span></h5>
+							<p>4 Egg Rolls</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-hutieu" role="tabpanel" aria-labelledby="nav-hutieu-tab">
-					<h3>HỦ TIẾU / MÌ – Rice Noodle or Egg Noodle Soup</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Hu Tieu
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">HỦ TIẾU / MÌ – Rice Noodle or Egg Noodle Soup</h4>
 
-					<h5>H-01 Hủ Tiếu Nam Vang  <span>$8.75</span></h5>
-					<p>Clear Noodle Soup w/ Pork &amp; Shrimp</p>
+							<h5>H-01 Hủ Tiếu Nam Vang  <span>$8.75</span></h5>
+							<p>Clear Noodle Soup w/ Pork &amp; Shrimp</p>
 
-					<h5>H-02 Hủ Tiếu Đồ Biển  <span>$8.75</span></h5>
-					<p>Rice Noodle Soup w/ Seafood</p>
+							<h5>H-02 Hủ Tiếu Đồ Biển  <span>$8.75</span></h5>
+							<p>Rice Noodle Soup w/ Seafood</p>
 
-					<h5>H-03 Mì Đặc Biệt  <span>$8.75</span></h5>
-					<p>Egg Noodle Soup w/ Shrimp &amp; Roasted Pork</p>
+							<h5>H-03 Mì Đặc Biệt  <span>$8.75</span></h5>
+							<p>Egg Noodle Soup w/ Shrimp &amp; Roasted Pork</p>
 
-					<h5>H-04 Mì Xui Cao  <span>$8.75</span></h5>
-					<p>Egg Noodle Soup w/ Wonton &amp; Roasted Pork</p>
+							<h5>H-04 Mì Xui Cao  <span>$8.75</span></h5>
+							<p>Egg Noodle Soup w/ Wonton &amp; Roasted Pork</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-rice" role="tabpanel" aria-labelledby="nav-rice-tab">
-					<h3>CƠM – Steamed Rice Dishes</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Rice
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">CƠM – Steamed Rice Dishes</h4>
 
-					<h5>R-01 Cơm Tôm Nướng <span>$8.50</span></h5>
-					<p>Grilled Shrimp w/ House Rice</p>
+							<h5>R-01 Cơm Tôm Nướng <span>$8.50</span></h5>
+							<p>Grilled Shrimp w/ House Rice</p>
 
-					<h5>R-02 Cơm Tấm Bì Chả Sườn Nướng <span>$8.00</span></h5>
-					<p>Grilled Pork Chop, Shredded Pork &amp; Baked Egg w/ Broken Steamed Rice</p>
+							<h5>R-02 Cơm Tấm Bì Chả Sườn Nướng <span>$8.00</span></h5>
+							<p>Grilled Pork Chop, Shredded Pork &amp; Baked Egg w/ Broken Steamed Rice</p>
 
-					<h5>R-03 Cơm Tấm Sườn Nướng <span>$8.00</span></h5>
-					<p>Grilled Pork Chop w/ Broken Steamed Rice</p>
+							<h5>R-03 Cơm Tấm Sườn Nướng <span>$8.00</span></h5>
+							<p>Grilled Pork Chop w/ Broken Steamed Rice</p>
 
-					<h5>R-04 Cơm Tấm Bì Chả Thịt Nướng <span>$8.00</span></h5>
-					<p>Grilled Pork, Shredded Pork &amp; Baked Egg w/ Broken Steamed Rice</p>
+							<h5>R-04 Cơm Tấm Bì Chả Thịt Nướng <span>$8.00</span></h5>
+							<p>Grilled Pork, Shredded Pork &amp; Baked Egg w/ Broken Steamed Rice</p>
 
-					<h5>R-05 Cơm Thịt Nướng Tàu Hủ Ky <span>$8.50</span></h5>
-					<p>Grilled Pork w/ Fried Shrimp In A Fresh Soybean Wrap</p>
+							<h5>R-05 Cơm Thịt Nướng Tàu Hủ Ky <span>$8.50</span></h5>
+							<p>Grilled Pork w/ Fried Shrimp In A Fresh Soybean Wrap</p>
 
-					<h5>R-06 Cơm Sườn Nướng Tàu Hủ Ky <span>$8.50</span></h5>
-					<p>Grilled Pork Chop w/ Fried Shrimp In A Fresh Soybean Wrap</p>
+							<h5>R-06 Cơm Sườn Nướng Tàu Hủ Ky <span>$8.50</span></h5>
+							<p>Grilled Pork Chop w/ Fried Shrimp In A Fresh Soybean Wrap</p>
 
-					<h5>R-07 Cơm Tấm Bì Tàu Hủ Ky <span>$8.50</span></h5>
-					<p>Shredded Pork w/ Fried Shrimp In A Fresh Soybean Wrap</p>
+							<h5>R-07 Cơm Tấm Bì Tàu Hủ Ky <span>$8.50</span></h5>
+							<p>Shredded Pork w/ Fried Shrimp In A Fresh Soybean Wrap</p>
 
-					<h5>R-08 Cơm Gà Ngủ Vị Hương <span>$8.00</span></h5>
-					<p>Chicken Marinated In 5 Spices Served w/ Signature Sauce &amp; House Rice</p>
+							<h5>R-08 Cơm Gà Ngủ Vị Hương <span>$8.00</span></h5>
+							<p>Chicken Marinated In 5 Spices Served w/ Signature Sauce &amp; House Rice</p>
 
-					<h5>R-09 Cơm Sườn Bò Đại Hàn <span>$8.50</span></h5>
-					<p>Korean B.B.Q. Beef w/ Steam Rice</p>
+							<h5>R-09 Cơm Sườn Bò Đại Hàn <span>$8.50</span></h5>
+							<p>Korean B.B.Q. Beef w/ Steam Rice</p>
 
-					<h5>R-10 Cơm Gà Xào Xã Ớt (Spicy) <span>$8.00</span></h5>
-					<p>Stir-fried Chicken w/ Lemongrass &amp; Hot Pepper Served w/ Steam Rice</p>
-
-
-					<h3>CƠM CHIÊN – Fried Rice Dishes</h3>
-
-					<h5>K-01 Cơm Chiên Gà – Chicken Fried Rice <span>$8.00</span></h5>
-					<p>Fried Rice w/Chicken &amp; Mix Vegetable</p>
-
-					<h5>K-02 Cơm Chiên Bò – Beef Fried Rice <span>$8.00</span></h5>
-					<p>Fried Rice w/Beef &amp; Mix Vegetable</p>
-
-					<h5>K-03 Cơm Chiên Tôm – Shrimp Fried Rice <span>$8.50</span></h5>
-					<p>Fried Rice w/Shrimp &amp; Mix Vegetable</p>
-
-					<h5>K-04 Cơm Chiên Thập Cẩm – Combination Fried Rice <span>$8.75</span></h5>
-					<p>Fried Rice w/ Shrimp, Pork, Chinese Sausage, Chicken &amp; Mix Vegetable</p>
-
-					<h5>Kid’s Size Fried Rice <span>$6.00</span></h5>
-					<p>Chicken, Beef, Shrimp, or Combo</p>
+							<h5>R-10 Cơm Gà Xào Xã Ớt (Spicy) <span>$8.00</span></h5>
+							<p>Stir-fried Chicken w/ Lemongrass &amp; Hot Pepper Served w/ Steam Rice</p>
 
 
-					<h3>EXTRAS – Side Order</h3>
+							<h4 class="menuCategory">CƠM CHIÊN – Fried Rice Dishes</h4>
 
-					<h5>Sườn Nướng – Grilled Pork Chop <span>$3.00</span></h5>
+							<h5>K-01 Cơm Chiên Gà – Chicken Fried Rice <span>$8.00</span></h5>
+							<p>Fried Rice w/Chicken &amp; Mix Vegetable</p>
 
-					<h5>Bò Đại Hàn – BBQ Beef <span>$3.00</span></h5>
+							<h5>K-02 Cơm Chiên Bò – Beef Fried Rice <span>$8.00</span></h5>
+							<p>Fried Rice w/Beef &amp; Mix Vegetable</p>
 
-					<h5>Tôm Nướng – Grilled Shrimp <span>$3.00</span></h5>
+							<h5>K-03 Cơm Chiên Tôm – Shrimp Fried Rice <span>$8.50</span></h5>
+							<p>Fried Rice w/Shrimp &amp; Mix Vegetable</p>
 
-					<h5>Gà Nướng – Grilled Chicken <span>$3.00</span></h5>
+							<h5>K-04 Cơm Chiên Thập Cẩm – Combination Fried Rice <span>$8.75</span></h5>
+							<p>Fried Rice w/ Shrimp, Pork, Chinese Sausage, Chicken &amp; Mix Vegetable</p>
 
-					<h5>Gà Ngủ Vị – 5 Spice Chicken <span>$5.00</span></h5>
+							<h5>Kid’s Size Fried Rice <span>$6.00</span></h5>
+							<p>Chicken, Beef, Shrimp, or Combo</p>
 
-					<h5>Thịt Nướng – Grilled Pork <span>$2.00</span></h5>
 
-					<h5>Tàu Hủ Ky-Fresh Soybean Wrap <span>$4.00</span></h5>
+							<h4 class="menuCategory">EXTRAS – Side Order</h4>
 
-					<h5>Bì – Shredded Pork <span>$2.00</span></h5>
+							<h5>Sườn Nướng – Grilled Pork Chop <span>$3.00</span></h5>
 
-					<h5>Chả – Baked Egg <span>$1.50</span></h5>
+							<h5>Bò Đại Hàn – BBQ Beef <span>$3.00</span></h5>
 
-					<h5>Trứng Chiên – Fried Eggs <span>$1.75</span></h5>
+							<h5>Tôm Nướng – Grilled Shrimp <span>$3.00</span></h5>
 
-					<h5>Bánh Mì – French Bread <span>$1.50</span></h5>
+							<h5>Gà Nướng – Grilled Chicken <span>$3.00</span></h5>
 
-					<h5>Chả Giò – Egg Rolls (2) <span>$2.00</span></h5>
+							<h5>Gà Ngủ Vị – 5 Spice Chicken <span>$5.00</span></h5>
 
-					<h5>Cơm – Steam Rice <span>$1.50</span></h5>
+							<h5>Thịt Nướng – Grilled Pork <span>$2.00</span></h5>
 
-					<h5>Kimchi – Pickled Spicy Cabbage <span>$2.00</span></h5>
+							<h5>Tàu Hủ Ky-Fresh Soybean Wrap <span>$4.00</span></h5>
+
+							<h5>Bì – Shredded Pork <span>$2.00</span></h5>
+
+							<h5>Chả – Baked Egg <span>$1.50</span></h5>
+
+							<h5>Trứng Chiên – Fried Eggs <span>$1.75</span></h5>
+
+							<h5>Bánh Mì – French Bread <span>$1.50</span></h5>
+
+							<h5>Chả Giò – Egg Rolls (2) <span>$2.00</span></h5>
+
+							<h5>Cơm – Steam Rice <span>$1.50</span></h5>
+
+							<h5>Kimchi – Pickled Spicy Cabbage <span>$2.00</span></h5>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-beverage" role="tabpanel" aria-labelledby="nav-beverage-tab">
-					<h3>GIẢI KHÁT – Beverages</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Beverages
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">GIẢI KHÁT – Beverages</h4>
 
-					<h5>D-01 Trà Nóng <span></span>$3.00</h5>
-					<p>Hot Tea</p>
+							<h5>D-01 Trà Nóng <span></span>$3.00</h5>
+							<p>Hot Tea</p>
 
-					<h5>D-02 Trà Đá <span></span>$2.00</h5>
-					<p>Ice Tea w/ Lemon</p>
+							<h5>D-02 Trà Đá <span></span>$2.00</h5>
+							<p>Ice Tea w/ Lemon</p>
 
-					<h5>D-03 Cà Phê Đen Nóng <span>$2.50</span></h5>
-					<p>Hot Espresso Black Coffee</p>
+							<h5>D-03 Cà Phê Đen Nóng <span>$2.50</span></h5>
+							<p>Hot Espresso Black Coffee</p>
 
-					<h5>D-04 Cà Phê Đen Đá <span>$2.50</span></h5>
-					<p>Ice Espresso Black Coffee</p>
+							<h5>D-04 Cà Phê Đen Đá <span>$2.50</span></h5>
+							<p>Ice Espresso Black Coffee</p>
 
-					<h5>D-05 Cà Phê Sữa Nóng <span>$3.00</span></h5>
-					<p>Hot Espresso Black Coffee w/ Condensed Milk</p>
+							<h5>D-05 Cà Phê Sữa Nóng <span>$3.00</span></h5>
+							<p>Hot Espresso Black Coffee w/ Condensed Milk</p>
 
-					<h5>D-06 Cà Phê Sữa Đá <span>$3.00</span></h5>
-					<p>Ice Espresso Black Coffee w/ Condensed Milk</p>
+							<h5>D-06 Cà Phê Sữa Đá <span>$3.00</span></h5>
+							<p>Ice Espresso Black Coffee w/ Condensed Milk</p>
 
-					<h5>D-07 Trà Thái <span>$3.75</span></h5>
-					<p>Thai Ice Tea w/ Tapioca &amp; Whip Cream</p>
+							<h5>D-07 Trà Thái <span>$3.75</span></h5>
+							<p>Thai Ice Tea w/ Tapioca &amp; Whip Cream</p>
 
-					<h5>D-08 Dừa Tươi <span>$3.00</span></h5>
-					<p>Fresh Young Coconut Juice</p>
+							<h5>D-08 Dừa Tươi <span>$3.00</span></h5>
+							<p>Fresh Young Coconut Juice</p>
 
-					<h5>D-09 Đá Chanh <span>$2.50</span></h5>
-					<p>Fresh Lemonade</p>
+							<h5>D-09 Đá Chanh <span>$2.50</span></h5>
+							<p>Fresh Lemonade</p>
 
-					<h5>D-10 Soda Chanh <span>$3.50</span></h5>
-					<p>Fresh Soda Lemonade</p>
+							<h5>D-10 Soda Chanh <span>$3.50</span></h5>
+							<p>Fresh Soda Lemonade</p>
 
-					<h5>D-11 Soda Sửa Hột Gà <span>$3.50</span></h5>
-					<p>Soda Milk w/ Egg Yolk</p>
+							<h5>D-11 Soda Sửa Hột Gà <span>$3.50</span></h5>
+							<p>Soda Milk w/ Egg Yolk</p>
 
-					<h5>D-12 Sữa Đậu Nành <span>$1.50</span></h5>
-					<p>Soy Bean Drink</p>
+							<h5>D-12 Sữa Đậu Nành <span>$1.50</span></h5>
+							<p>Soy Bean Drink</p>
 
-					<h5>D-13 Rau Mà <span>$2.00</span></h5>
-					<p>Pennywort Drink</p>
+							<h5>D-13 Rau Mà <span>$2.00</span></h5>
+							<p>Pennywort Drink</p>
 
-					<h5>D-14 Soda <span>$2.00</span></h5>
-					<p>Coke, Diet Coke, Sprite, Dr. Pepper, Diet Dr. Pepper, Root Beer</p>
+							<h5>D-14 Soda <span>$2.00</span></h5>
+							<p>Coke, Diet Coke, Sprite, Dr. Pepper, Diet Dr. Pepper, Root Beer</p>
+			      </div>
+			    </div>
 			  </div>
 
-			  <div class="tab-pane fade" id="nav-smoothie" role="tabpanel" aria-labelledby="nav-smoothie-tab">
-					<h3>SINH TỐ – Smoothies Served w/ Tapioca</h3>
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Smoothies
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+							<h4 class="menuCategory">SINH TỐ – Smoothies Served w/ Tapioca</h4>
 
-					<h5>D-16 Mẳng Cầu <span>$3.75</span></h5>
-					<p>Soursop Smoothie</p>
+							<h5>D-16 Mẳng Cầu <span>$3.75</span></h5>
+							<p>Soursop Smoothie</p>
 
-					<h5>D-17 Bơ <span>$3.75</span></h5>
-					<p>Avocado</p>
+							<h5>D-17 Bơ <span>$3.75</span></h5>
+							<p>Avocado</p>
 
-					<h5>D-18 Mít <span>$3.75</span></h5>
-					<p>Jack Fruit</p>
+							<h5>D-18 Mít <span>$3.75</span></h5>
+							<p>Jack Fruit</p>
 
-					<h5>D-19 Xoài <span>$3.75</span></h5>
-					<p>Mango</p>
+							<h5>D-19 Xoài <span>$3.75</span></h5>
+							<p>Mango</p>
 
-					<h5>D-20 Khoai Môn <span>$3.75</span></h5>
-					<p>Taro</p>
+							<h5>D-20 Khoai Môn <span>$3.75</span></h5>
+							<p>Taro</p>
 
-					<h5>D-21 Dâu <span>$3.75</span></h5>
-					<p>Strawberry</p>
+							<h5>D-21 Dâu <span>$3.75</span></h5>
+							<p>Strawberry</p>
 
-					<h5>D-22 Honey Dew <span>$3.75</span></h5>
-					<p>Honey Dew</p>
+							<h5>D-22 Honey Dew <span>$3.75</span></h5>
+							<p>Honey Dew</p>
 
-					<h5>D-23 Cà Phê <span>$3.75</span></h5>
-					<p>Mocha</p>
+							<h5>D-23 Cà Phê <span>$3.75</span></h5>
+							<p>Mocha</p>
 
 
-					<h3>CHÈ – Dessert</h3>
+							<h4 class="menuCategory">CHÈ – Dessert</h4>
 
-					<h5>D-24 Chè Ba Màu <span>$3.75</span></h5>
-					<p>Tri-Color Sweet Bean</p>
+							<h5>D-24 Chè Ba Màu <span>$3.75</span></h5>
+							<p>Tri-Color Sweet Bean</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="card">
+			    <div class="card-header" role="tab" id="headingThree">
+			      <h5 class="mb-0">
+			        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          GF | MSG
+			        </a>
+			      </h5>
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			      <div class="card-body">
+
+			      </div>
+			    </div>
 			  </div>
 			</div>
 		</div>

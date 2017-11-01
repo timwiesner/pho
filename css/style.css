@@ -48,8 +48,11 @@ body {
   margin-bottom: 15px;
 }
 
+.menuCategory {
+  text-align: center;
+}
 @media only screen and (max-width: 393px) {
-  .menu h3 {
+  .menuCategory {
     font-size: 20px;
   }
 }
