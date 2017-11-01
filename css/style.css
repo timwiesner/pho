@@ -46,6 +46,7 @@ body {
 .menuTitle {
   text-align: center;
   margin-bottom: 15px;
+  margin-top: -16px;
 }
 
 .menuCategory {
