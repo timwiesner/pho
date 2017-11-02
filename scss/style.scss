@@ -67,22 +67,22 @@ body {
 	}
 }
 
+.menu h4 {
+	@include extra-small-screens {
+		font-size: 1.25rem;
+	}
+}
+
 .menu h5 {
 	@include extra-small-screens {
-		font-size: 14px;
+		font-size: .8rem;
 	}
 }
 
 .menu p {
 	@include extra-small-screens {
-		font-size: 12px;
+		font-size: .75rem;
 	}
-}
-
-
-
-.nav {
-	margin-bottom: 10px;
 }
 
 
