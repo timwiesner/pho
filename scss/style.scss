@@ -60,13 +60,6 @@ body {
 	margin-top: -16px;
 }
 
-.menuCategory {
-	text-align: center;
-	@include extra-small-screens {
-		font-size: 20px;
-	}
-}
-
 .menu h4 {
 	@include extra-small-screens {
 		font-size: 1.25rem;
@@ -75,7 +68,7 @@ body {
 
 .menu h5 {
 	@include extra-small-screens {
-		font-size: .8rem;
+		font-size: 1rem;
 	}
 }
 
@@ -101,4 +94,26 @@ body {
 	@include small-screens {
 		font-size: 16px;
 	}
+}
+
+
+// Back to top button
+.navbar-fixed-top + .content-container {
+	margin-top: 70px;
+}
+.content-container {
+	margin: 0 130px;
+}
+
+
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
 }
