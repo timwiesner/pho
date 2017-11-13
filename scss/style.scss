@@ -1,29 +1,41 @@
 @import "partials/mixins";
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // === CONTENT ===
-$content-width: 992px;
+$content-width: 750px;
 
 
-$primary-color: #8f2b26;
+$primary-color: #b02d21;
 $secondary-color: #f9f9f9;
 
 $facebook-color: #3b5998;
 $yelp-color: #d32323;
 
 
+* {
+	font-family: "Nunito";
+}
 
 /* Container*/
 .container-fluid {
 	// margin-top: 20px;
 	width: $content-width;
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 750px) {
     width: auto;
     max-width: $content-width;
   }
 }
 
-body {
-	margin-top: 20px;
+#accordion {
+	width: $content-width;
+	margin: auto;
+  @media only screen and (max-width: 750px) {
+    width: auto;
+    max-width: $content-width;
+  }
+}
+
+.red {
 	background-color: $primary-color;
 }
 
@@ -34,23 +46,22 @@ body {
   text-align: center;
 }
 
+.bold {
+	font-weight: 700;
+}
+
 .main h4 {
 	@include small-screens {
-		font-size: 18px;
+		font-size: 1.23em;
 	}
 	@include extra-small-screens {
-		font-size: 14px;
+		font-size: .95em;
 	}
 }
 
-.white {
-	background-color: #ffffff;
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
 
 .iconImg {
-  max-width: 60%;
+  max-width: 80%;
   margin-bottom: 10px;
 }
 
@@ -58,6 +69,19 @@ body {
 	text-align: center;
 	margin-bottom: 15px;
 	margin-top: -16px;
+}
+
+.mb-0 a {
+	@include extra-small-screens {
+		font-size: 1rem;
+	}
+}
+
+.card-header {
+	@include extra-small-screens {
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
 }
 
 .menu h4 {
@@ -74,7 +98,7 @@ body {
 
 .menu p {
 	@include extra-small-screens {
-		font-size: .75rem;
+		font-size: .8rem;
 	}
 }
 
@@ -94,26 +118,4 @@ body {
 	@include small-screens {
 		font-size: 16px;
 	}
-}
-
-
-// Back to top button
-.navbar-fixed-top + .content-container {
-	margin-top: 70px;
-}
-.content-container {
-	margin: 0 130px;
-}
-
-
-
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px; /* negative of the offset - height of link element */
-    left: 10px; /* padding from the left side of the window */
-}
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
-    left: 10px; /* padding from the left side of the window */
 }

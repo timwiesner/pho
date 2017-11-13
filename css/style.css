@@ -1,100 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+* {
+  font-family: "Nunito"; }
+
 /* Container*/
 .container-fluid {
-  width: 992px;
-}
-@media only screen and (max-width: 992px) {
-  .container-fluid {
-    width: auto;
-    max-width: 992px;
-  }
-}
+  width: 750px; }
+  @media only screen and (max-width: 750px) {
+    .container-fluid {
+      width: auto;
+      max-width: 750px; } }
 
-body {
-  margin-top: 20px;
-  background-color: #8f2b26;
-}
+#accordion {
+  width: 750px;
+  margin: auto; }
+  @media only screen and (max-width: 750px) {
+    #accordion {
+      width: auto;
+      max-width: 750px; } }
+
+.red {
+  background-color: #b02d21; }
 
 .main {
   padding-top: 5px;
   padding-bottom: 5px;
   margin: auto;
-  text-align: center;
-}
+  text-align: center; }
+
+.bold {
+  font-weight: 700; }
 
 @media only screen and (max-width: 468px) {
   .main h4 {
-    font-size: 18px;
-  }
-}
+    font-size: 1.23em; } }
 @media only screen and (max-width: 393px) {
   .main h4 {
-    font-size: 14px;
-  }
-}
-
-.white {
-  background-color: #ffffff;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
+    font-size: .95em; } }
 
 .iconImg {
-  max-width: 60%;
-  margin-bottom: 10px;
-}
+  max-width: 80%;
+  margin-bottom: 10px; }
 
 .menuTitle {
   text-align: center;
   margin-bottom: 15px;
-  margin-top: -16px;
-}
+  margin-top: -16px; }
 
-.menuCategory {
-  text-align: center;
-}
 @media only screen and (max-width: 393px) {
-  .menuCategory {
-    font-size: 20px;
-  }
-}
+  .mb-0 a {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 393px) {
+  .card-header {
+    padding-top: 6px;
+    padding-bottom: 6px; } }
 
 @media only screen and (max-width: 393px) {
   .menu h4 {
-    font-size: 1.25rem;
-  }
-}
+    font-size: 1.25rem; } }
 
 @media only screen and (max-width: 393px) {
   .menu h5 {
-    font-size: .8rem;
-  }
-}
+    font-size: 1rem; } }
 
 @media only screen and (max-width: 393px) {
   .menu p {
-    font-size: .75rem;
-  }
-}
+    font-size: .8rem; } }
 
 /* Icons */
 .fa-facebook-square {
   color: #3b5998;
-  font-size: 24px;
-}
-@media only screen and (max-width: 468px) {
-  .fa-facebook-square {
-    font-size: 16px;
-  }
-}
+  font-size: 24px; }
+  @media only screen and (max-width: 468px) {
+    .fa-facebook-square {
+      font-size: 16px; } }
 
 .fa-yelp {
   color: #d32323;
-  font-size: 24px;
-}
-@media only screen and (max-width: 468px) {
-  .fa-yelp {
-    font-size: 16px;
-  }
-}
+  font-size: 24px; }
+  @media only screen and (max-width: 468px) {
+    .fa-yelp {
+      font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
