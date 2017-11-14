@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // === CONTENT ===
-$content-width: 750px;
+$content-width: 7oopx;
 
 
 $primary-color: #b02d21;
@@ -73,7 +73,7 @@ header {
 }
 
 .iconImg {
-  max-width: 80%;
+  max-width: 60%;
   margin-bottom: 10px;
 }
 
@@ -110,9 +110,14 @@ header {
 }
 
 .menu h5 {
+	margin-bottom: 4px;
 	@include extra-small-screens {
 		font-size: 1rem;
 	}
+}
+
+.menu h5 span {
+	float: right;
 }
 
 .menu p {
