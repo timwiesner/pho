@@ -18,6 +18,13 @@
       width: auto;
       max-width: 750px; } }
 
+hr {
+  width: 750px; }
+  @media only screen and (max-width: 750px) {
+    hr {
+      width: auto;
+      max-width: 750px; } }
+
 .red {
   background-color: #b02d21; }
 
@@ -37,23 +44,33 @@
   .main h4 {
     font-size: .95em; } }
 
+header {
+  padding-bottom: 40px; }
+
 .iconImg {
   max-width: 80%;
   margin-bottom: 10px; }
 
 .menuTitle {
-  text-align: center;
   margin-bottom: 15px;
-  margin-top: -16px; }
+  margin-top: -16px;
+  color: #b02d21;
+  font-weight: 700;
+  padding-left: 7%; }
 
 @media only screen and (max-width: 393px) {
   .mb-0 a {
     font-size: 1rem; } }
 
-@media only screen and (max-width: 393px) {
-  .card-header {
-    padding-top: 6px;
-    padding-bottom: 6px; } }
+.card-header {
+  background-color: #b74237; }
+  @media only screen and (max-width: 393px) {
+    .card-header {
+      padding-top: 6px;
+      padding-bottom: 6px; } }
+
+.card-header a {
+  color: #eaecef; }
 
 @media only screen and (max-width: 393px) {
   .menu h4 {
@@ -81,5 +98,8 @@
   @media only screen and (max-width: 468px) {
     .fa-yelp {
       font-size: 16px; } }
+
+.jumbotron-fluid {
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */

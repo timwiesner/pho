@@ -35,6 +35,15 @@ $yelp-color: #d32323;
   }
 }
 
+hr {
+	width: $content-width;
+	// margin: auto;
+  @media only screen and (max-width: 750px) {
+    width: auto;
+    max-width: $content-width;
+  }
+}
+
 .red {
 	background-color: $primary-color;
 }
@@ -59,6 +68,9 @@ $yelp-color: #d32323;
 	}
 }
 
+header {
+	padding-bottom: 40px;
+}
 
 .iconImg {
   max-width: 80%;
@@ -66,9 +78,11 @@ $yelp-color: #d32323;
 }
 
 .menuTitle {
-	text-align: center;
 	margin-bottom: 15px;
 	margin-top: -16px;
+	color: $primary-color;
+	font-weight: 700;
+	padding-left: 7%;
 }
 
 .mb-0 a {
@@ -82,6 +96,11 @@ $yelp-color: #d32323;
 		padding-top: 6px;
 		padding-bottom: 6px;
 	}
+	background-color: #b74237;
+}
+
+.card-header a {
+	color: #eaecef;
 }
 
 .menu h4 {
@@ -118,4 +137,9 @@ $yelp-color: #d32323;
 	@include small-screens {
 		font-size: 16px;
 	}
+}
+
+
+.jumbotron-fluid {
+	margin-bottom: 0px;
 }
