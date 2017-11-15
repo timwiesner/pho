@@ -2,47 +2,16 @@
 * {
   font-family: "Nunito"; }
 
+.jumbotron-fluid {
+  margin-bottom: 0px; }
+
 /* Container*/
 .container-fluid {
-  width: 7oopx; }
+  width: 750px; }
   @media only screen and (max-width: 750px) {
     .container-fluid {
       width: auto;
-      max-width: 7oopx; } }
-
-#accordion {
-  width: 7oopx;
-  margin: auto; }
-  @media only screen and (max-width: 750px) {
-    #accordion {
-      width: auto;
-      max-width: 7oopx; } }
-
-hr {
-  width: 7oopx; }
-  @media only screen and (max-width: 750px) {
-    hr {
-      width: auto;
-      max-width: 7oopx; } }
-
-.red {
-  background-color: #b02d21; }
-
-.main {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: auto;
-  text-align: center; }
-
-.bold {
-  font-weight: 700; }
-
-@media only screen and (max-width: 468px) {
-  .main h4 {
-    font-size: 1.23em; } }
-@media only screen and (max-width: 393px) {
-  .main h4 {
-    font-size: .95em; } }
+      max-width: 750px; } }
 
 header {
   padding-bottom: 40px; }
@@ -51,9 +20,51 @@ header {
   max-width: 60%;
   margin-bottom: 10px; }
 
+#accordion {
+  width: 750px;
+  margin: auto; }
+  @media only screen and (max-width: 750px) {
+    #accordion {
+      width: auto;
+      max-width: 750px; } }
+
+hr {
+  width: 750px; }
+  @media only screen and (max-width: 750px) {
+    hr {
+      width: auto;
+      max-width: 750px; } }
+
+.main {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  text-align: center; }
+
+.main h4 {
+  font-weight: 700; }
+  @media only screen and (max-width: 468px) {
+    .main h4 {
+      font-size: 1.23em; } }
+  @media only screen and (max-width: 393px) {
+    .main h4 {
+      font-size: .95em; } }
+
+@media only screen and (max-width: 393px) {
+  li.nav-item {
+    font-size: .85rem; } }
+
+li.nav-item > a.nav-link.active {
+  background-color: #b02d21; }
+
+@media only screen and (max-width: 393px) {
+  #padSmall {
+    padding-right: 4px;
+    padding-left: 4px; } }
+
 .menuTitle {
   margin-bottom: 15px;
-  margin-top: -16px;
+  margin-top: 15px;
   color: #b02d21;
   font-weight: 700;
   padding-left: 7%; }
@@ -70,7 +81,7 @@ header {
       padding-bottom: 6px; } }
 
 .card-header a {
-  color: #eaecef; }
+  color: #fff; }
 
 @media only screen and (max-width: 393px) {
   .menu h4 {
@@ -104,7 +115,7 @@ header {
     .fa-yelp {
       font-size: 16px; } }
 
-.jumbotron-fluid {
-  margin-bottom: 0px; }
+.footer {
+  margin-top: 80px; }
 
 /*# sourceMappingURL=style.css.map */

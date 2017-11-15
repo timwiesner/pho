@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // === CONTENT ===
-$content-width: 7oopx;
-
+$content-width: 750px;
 
 $primary-color: #b02d21;
 $secondary-color: #f9f9f9;
@@ -16,14 +15,26 @@ $yelp-color: #d32323;
 	font-family: "Nunito";
 }
 
+.jumbotron-fluid {
+	margin-bottom: 0px;
+}
+
 /* Container*/
 .container-fluid {
-	// margin-top: 20px;
 	width: $content-width;
   @media only screen and (max-width: 750px) {
     width: auto;
     max-width: $content-width;
   }
+}
+
+header {
+	padding-bottom: 40px;
+}
+
+.iconImg {
+  max-width: 60%;
+  margin-bottom: 10px;
 }
 
 #accordion {
@@ -37,15 +48,10 @@ $yelp-color: #d32323;
 
 hr {
 	width: $content-width;
-	// margin: auto;
   @media only screen and (max-width: 750px) {
     width: auto;
     max-width: $content-width;
   }
-}
-
-.red {
-	background-color: $primary-color;
 }
 
 .main {
@@ -55,11 +61,8 @@ hr {
   text-align: center;
 }
 
-.bold {
-	font-weight: 700;
-}
-
 .main h4 {
+	font-weight: 700;
 	@include small-screens {
 		font-size: 1.23em;
 	}
@@ -68,18 +71,27 @@ hr {
 	}
 }
 
-header {
-	padding-bottom: 40px;
+
+li.nav-item {
+ @include extra-small-screens {
+ 	font-size: .85rem;
+ }
 }
 
-.iconImg {
-  max-width: 60%;
-  margin-bottom: 10px;
+li.nav-item > a.nav-link.active {
+	background-color: $primary-color;
+}
+
+#padSmall {
+	@include extra-small-screens {
+ 	padding-right: 4px;
+ 	padding-left: 4px;
+	}
 }
 
 .menuTitle {
 	margin-bottom: 15px;
-	margin-top: -16px;
+	margin-top: 15px;
 	color: $primary-color;
 	font-weight: 700;
 	padding-left: 7%;
@@ -100,7 +112,8 @@ header {
 }
 
 .card-header a {
-	color: #eaecef;
+	// color: #eaecef;
+	color: #fff;
 }
 
 .menu h4 {
@@ -144,7 +157,6 @@ header {
 	}
 }
 
-
-.jumbotron-fluid {
-	margin-bottom: 0px;
+.footer {
+	margin-top: 80px;
 }
