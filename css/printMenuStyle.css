@@ -5,32 +5,12 @@
 .jumbotron-fluid {
   margin-bottom: 0px; }
 
-/* Container*/
-.container-fluid {
-  width: 750px; }
-  @media only screen and (max-width: 900px) {
-    .container-fluid {
-      width: auto;
-      max-width: 750px; } }
-
 header {
   padding-bottom: 40px; }
 
 .iconImg {
   max-width: 60%;
   margin-bottom: 10px; }
-
-hr,
-#accordion,
-.homePage {
-  width: 750px;
-  margin: auto; }
-  @media only screen and (max-width: 900px) {
-    hr,
-    #accordion,
-    .homePage {
-      width: auto;
-      max-width: 750px; } }
 
 hr {
   margin-bottom: 15px; }
@@ -71,37 +51,6 @@ li.nav-item > a.nav-link.active {
   font-weight: 700;
   padding-left: 7%; }
 
-@media only screen and (max-width: 393px) {
-  .mb-0 a {
-    font-size: 1rem; } }
-
-.card-header {
-  background-color: #b74237; }
-  @media only screen and (max-width: 393px) {
-    .card-header {
-      padding-top: 6px;
-      padding-bottom: 6px; } }
-
-.card-header a {
-  color: #fff; }
-
-@media only screen and (max-width: 393px) {
-  .menu h4 {
-    font-size: 1.25rem; } }
-
-.menu h5 {
-  margin-bottom: 4px; }
-  @media only screen and (max-width: 393px) {
-    .menu h5 {
-      font-size: 1rem; } }
-
-.menu h5 span {
-  float: right; }
-
-@media only screen and (max-width: 393px) {
-  .menu p {
-    font-size: .8rem; } }
-
 /* Icons */
 .fa-facebook-square {
   color: #3b5998;
@@ -120,4 +69,29 @@ li.nav-item > a.nav-link.active {
 .footer {
   margin-top: 80px; }
 
-/*# sourceMappingURL=style.css.map */
+.menuBtns {
+  display: inline-block; }
+
+.menuBtns > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px; }
+
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000; }
+
+.back-to-top i {
+  font-size: 60px; }
+
+/*# sourceMappingURL=printMenuStyle.css.map */

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // === CONTENT ===
-$content-width: 750px;
 
 $primary-color: #b02d21;
 $secondary-color: #f9f9f9;
@@ -19,15 +18,6 @@ $yelp-color: #d32323;
 	margin-bottom: 0px;
 }
 
-/* Container*/
-.container-fluid {
-	width: $content-width;
-  @media only screen and (max-width: 900px) {
-    width: auto;
-    max-width: $content-width;
-  }
-}
-
 header {
 	padding-bottom: 40px;
 }
@@ -35,17 +25,6 @@ header {
 .iconImg {
   max-width: 60%;
   margin-bottom: 10px;
-}
-
-hr,
-#accordion,
-.homePage {
-	width: $content-width;
-	margin: auto;
-  @media only screen and (max-width: 900px) {
-    width: auto;
-    max-width: $content-width;
-  }
 }
 
 hr {
@@ -97,48 +76,6 @@ li.nav-item > a.nav-link.active {
 	padding-left: 7%;
 }
 
-.mb-0 a {
-	@include extra-small-screens {
-		font-size: 1rem;
-	}
-}
-
-.card-header {
-	@include extra-small-screens {
-		padding-top: 6px;
-		padding-bottom: 6px;
-	}
-	background-color: #b74237;
-}
-
-.card-header a {
-	// color: #eaecef;
-	color: #fff;
-}
-
-.menu h4 {
-	@include extra-small-screens {
-		font-size: 1.25rem;
-	}
-}
-
-.menu h5 {
-	margin-bottom: 4px;
-	@include extra-small-screens {
-		font-size: 1rem;
-	}
-}
-
-.menu h5 span {
-	float: right;
-}
-
-.menu p {
-	@include extra-small-screens {
-		font-size: .8rem;
-	}
-}
-
 
 /* Icons */
 .fa-facebook-square {
@@ -159,4 +96,36 @@ li.nav-item > a.nav-link.active {
 
 .footer {
 	margin-top: 80px;
+}
+
+.menuBtns {
+	display: inline-block;
+}
+
+.menuBtns > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+
+
+// Back to top
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #ff9000;
+}
+
+.back-to-top i {
+	font-size: 60px;
 }
