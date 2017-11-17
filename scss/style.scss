@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // === CONTENT ===
-$content-width: 750px;
+$menu-width: 750px;
 
 $primary-color: #b02d21;
 $secondary-color: #f9f9f9;
+
 
 $facebook-color: #3b5998;
 $yelp-color: #d32323;
@@ -15,44 +16,57 @@ $yelp-color: #d32323;
 	font-family: "Nunito";
 }
 
+.menu {
+  margin-top: 20px;
+  padding-top: 0px;
+  width: $menu-width;
+  @media only screen and (max-width: 2000px) {
+    width: auto;
+    max-width: $menu-width;
+  }
+}
+
 .jumbotron-fluid {
 	margin-bottom: 0px;
 }
 
-/* Container*/
-.container-fluid {
-	width: $content-width;
-  @media only screen and (max-width: 900px) {
-    width: auto;
-    max-width: $content-width;
-  }
+body, html {
+	height: 100%;
 }
 
 header {
 	padding-bottom: 40px;
 }
 
-.iconImg {
-  max-width: 60%;
-  margin-bottom: 10px;
+
+.slideshow {
+	background-image: url('../images/background.jpg');
+	// opacity: 0.6;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-hr,
-#accordion,
-.homePage {
-	width: $content-width;
-	margin: auto;
-  @media only screen and (max-width: 900px) {
-    width: auto;
-    max-width: $content-width;
-  }
+.container-fluid.menu {
+	height: 100%;
+	background-color: #fff;
 }
 
 hr {
 	margin-bottom: 15px;
 }
 
+.logo {
+  max-width: 65%;
+  margin-bottom: 10px;
+}
+
 .main {
+	// opacity: 1;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: auto;
@@ -60,6 +74,8 @@ hr {
 }
 
 .main h4 {
+	text-shadow: 2px 2px black;
+	color: #fff;
 	font-weight: 700;
 	@include small-screens {
 		font-size: 1.23em;
@@ -86,7 +102,7 @@ li.nav-item > a.nav-link.active {
 }
 
 .nav-link {
-	color: #212529;
+	color: #fff;
 }
 
 .title {
@@ -112,11 +128,11 @@ li.nav-item > a.nav-link.active {
 }
 
 .card-header a {
-	// color: #eaecef;
 	color: #fff;
 }
 
 .menu h4 {
+	text-decoration: underline;
 	@include extra-small-screens {
 		font-size: 1.25rem;
 	}
@@ -159,4 +175,31 @@ li.nav-item > a.nav-link.active {
 
 .footer {
 	margin-top: 80px;
+}
+
+
+// Back to top
+// .back-to-top {
+// 	background: none;
+// 	margin: 0;
+// 	position: fixed;
+// 	bottom: 0;
+// 	right: 0;
+// 	padding-left: 3px;
+// 	width: 58px;
+// 	height: 60px;
+// 	z-index: 100;
+// 	display: none;
+// 	text-decoration: none;
+// 	color: $primary-color;
+// 	background-color: #e2ecef;
+// }
+
+// .back-to-top i {
+// 	font-size: 60px;
+// }
+
+#toGo {
+	text-align: center;
+	font-weight: 700;
 }

@@ -2,38 +2,44 @@
 * {
   font-family: "Nunito"; }
 
+.menu {
+  margin-top: 20px;
+  padding-top: 0px;
+  width: 750px; }
+  @media only screen and (max-width: 2000px) {
+    .menu {
+      width: auto;
+      max-width: 750px; } }
+
 .jumbotron-fluid {
   margin-bottom: 0px; }
 
-/* Container*/
-.container-fluid {
-  width: 750px; }
-  @media only screen and (max-width: 900px) {
-    .container-fluid {
-      width: auto;
-      max-width: 750px; } }
+body, html {
+  height: 100%; }
 
 header {
   padding-bottom: 40px; }
 
-.iconImg {
-  max-width: 60%;
-  margin-bottom: 10px; }
+.slideshow {
+  background-image: url("../images/background.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
-hr,
-#accordion,
-.homePage {
-  width: 750px;
-  margin: auto; }
-  @media only screen and (max-width: 900px) {
-    hr,
-    #accordion,
-    .homePage {
-      width: auto;
-      max-width: 750px; } }
+.container-fluid.menu {
+  height: 100%;
+  background-color: #fff; }
 
 hr {
   margin-bottom: 15px; }
+
+.logo {
+  max-width: 65%;
+  margin-bottom: 10px; }
 
 .main {
   padding-top: 5px;
@@ -42,6 +48,8 @@ hr {
   text-align: center; }
 
 .main h4 {
+  text-shadow: 2px 2px black;
+  color: #fff;
   font-weight: 700; }
   @media only screen and (max-width: 468px) {
     .main h4 {
@@ -62,7 +70,7 @@ li.nav-item > a.nav-link.active {
   background-color: #b02d21; }
 
 .nav-link {
-  color: #212529; }
+  color: #fff; }
 
 .title {
   margin-bottom: 15px;
@@ -85,9 +93,11 @@ li.nav-item > a.nav-link.active {
 .card-header a {
   color: #fff; }
 
-@media only screen and (max-width: 393px) {
-  .menu h4 {
-    font-size: 1.25rem; } }
+.menu h4 {
+  text-decoration: underline; }
+  @media only screen and (max-width: 393px) {
+    .menu h4 {
+      font-size: 1.25rem; } }
 
 .menu h5 {
   margin-bottom: 4px; }
@@ -119,5 +129,9 @@ li.nav-item > a.nav-link.active {
 
 .footer {
   margin-top: 80px; }
+
+#toGo {
+  text-align: center;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
