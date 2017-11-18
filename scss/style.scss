@@ -98,6 +98,11 @@ header {
 
 .printMenu {
 	margin-top: 20px;
+	max-width: 920px;
+}
+
+.nav-tabs a {
+color: black;
 }
 
 hr {
@@ -180,8 +185,6 @@ li.nav-item > a.nav-link.active {
 }
 
 
-
-
 footer p {
 	padding-top: 220px;
 	text-align: center;
@@ -190,25 +193,3 @@ footer p {
 footer p a {
 	color: $primary-color;
 }
-
-
-// Back to top
-// .back-to-top {
-// 	background: none;
-// 	margin: 0;
-// 	position: fixed;
-// 	bottom: 0;
-// 	right: 0;
-// 	padding-left: 3px;
-// 	width: 58px;
-// 	height: 60px;
-// 	z-index: 100;
-// 	display: none;
-// 	text-decoration: none;
-// 	color: $primary-color;
-// 	background-color: #e2ecef;
-// }
-
-// .back-to-top i {
-// 	font-size: 60px;
-// }
