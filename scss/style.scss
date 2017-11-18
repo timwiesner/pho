@@ -5,8 +5,7 @@
 $menu-width: 750px;
 
 $primary-color: #b02d21;
-$secondary-color: #f9f9f9;
-
+$secondary-color: #fff;
 
 $facebook-color: #3b5998;
 $yelp-color: #d32323;
@@ -22,7 +21,6 @@ body, html {
 
 .backgroundImage {
 	background-image: url('../images/background.jpg');
-	// opacity: 0.6;
 	height: 100%;
 	background-size: cover;
 	background-position: center;
@@ -35,10 +33,15 @@ body, html {
 .logo {
   max-width: 65%;
   margin-bottom: 10px;
+  @include logo {
+		max-width: 80%;
+  }
+  @include small-screens {
+		max-width: 90%
+  }
 }
 
 .main {
-	// opacity: 1;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: auto;
@@ -47,9 +50,10 @@ body, html {
 
 .main h4 {
 	text-shadow: 2px 2px black;
-	color: #fff;
+	color: $secondary-color;
 	font-weight: 700;
 	@include small-screens {
+		text-shadow: 1px 1px black;
 		font-size: 1.23em;
 	}
 	@include extra-small-screens {
@@ -82,19 +86,22 @@ header {
 	max-width: 24px;
 	max-height: 24px;
 	margin-bottom: 10px;
+	@include small-screens {
+		max-width: 16px;
+		max-height: 16px;
+		margin-bottom: 5px;
+	}
 }
 
 .center-pills {
 	display: flex;
 	justify-content: center;
-	font-size: 20px;
 }
 
 
 .mobileMenu {
 	height: 100%;
   margin-top: 20px;
-  // padding-top: 0px;
   width: $menu-width;
   @media only screen and (max-width: 2000px) {
     width: auto;
@@ -135,8 +142,13 @@ li.nav-item > a.nav-link.active {
 }
 
 .pillsNav {
-	color: #fff;
-	text-shadow: 1px 1px black;
+	color: $secondary-color;
+	text-shadow: 2px 2px black;
+	font-size: 24px;
+	@include small-screens {
+		text-shadow: 1px 1px black;
+		font-size: 1.23em;
+	}
 }
 
 .pillsNav:hover {
@@ -159,7 +171,7 @@ color: $primary-color;
 }
 
 .card-header a {
-	color: #fff;
+	color: $secondary-color;
 }
 
 .menu h4 {
