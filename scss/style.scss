@@ -46,7 +46,7 @@ body, html {
 }
 
 .main h4 {
-	text-shadow: 2px 3px black;
+	text-shadow: 2px 2px black;
 	color: #fff;
 	font-weight: 700;
 	@include small-screens {
@@ -78,6 +78,12 @@ header {
 	}
 }
 
+.gooGl {
+	max-width: 24px;
+	max-height: 24px;
+	margin-bottom: 10px;
+}
+
 .center-pills {
 	display: flex;
 	justify-content: center;
@@ -105,14 +111,6 @@ header {
 color: black;
 }
 
-hr {
-	margin-bottom: 15px;
-}
-
-
-
-
-
 .title {
 	margin-bottom: 15px;
 	margin-top: 15px;
@@ -120,6 +118,11 @@ hr {
 	font-weight: 700;
 	padding-left: 7%;
 }
+
+hr {
+	margin-bottom: 15px;
+}
+
 
 li.nav-item {
  @include extra-small-screens {
@@ -131,10 +134,14 @@ li.nav-item > a.nav-link.active {
 	background-color: $primary-color;
 }
 
-.nav-link {
+.pillsNav {
 	color: #fff;
+	text-shadow: 1px 1px black;
 }
 
+.pillsNav:hover {
+color: $primary-color;
+}
 
 
 .mb-0 a {
@@ -177,6 +184,10 @@ li.nav-item > a.nav-link.active {
 	@include extra-small-screens {
 		font-size: .8rem;
 	}
+}
+
+.phoP {
+	text-align: center;
 }
 
 #toGo {

@@ -26,7 +26,7 @@ body, html {
   text-align: center; }
 
 .main h4 {
-  text-shadow: 2px 3px black;
+  text-shadow: 2px 2px black;
   color: #fff;
   font-weight: 700; }
   @media only screen and (max-width: 468px) {
@@ -54,6 +54,11 @@ header {
     .fa-yelp {
       font-size: 16px; } }
 
+.gooGl {
+  max-width: 24px;
+  max-height: 24px;
+  margin-bottom: 10px; }
+
 .center-pills {
   display: flex;
   justify-content: center;
@@ -75,15 +80,15 @@ header {
 .nav-tabs a {
   color: black; }
 
-hr {
-  margin-bottom: 15px; }
-
 .title {
   margin-bottom: 15px;
   margin-top: 15px;
   color: #b02d21;
   font-weight: 700;
   padding-left: 7%; }
+
+hr {
+  margin-bottom: 15px; }
 
 @media only screen and (max-width: 393px) {
   li.nav-item {
@@ -92,8 +97,12 @@ hr {
 li.nav-item > a.nav-link.active {
   background-color: #b02d21; }
 
-.nav-link {
-  color: #fff; }
+.pillsNav {
+  color: #fff;
+  text-shadow: 1px 1px black; }
+
+.pillsNav:hover {
+  color: #b02d21; }
 
 @media only screen and (max-width: 393px) {
   .mb-0 a {
@@ -127,6 +136,9 @@ li.nav-item > a.nav-link.active {
 @media only screen and (max-width: 393px) {
   .menu p {
     font-size: .8rem; } }
+
+.phoP {
+  text-align: center; }
 
 #toGo {
   text-align: center;
