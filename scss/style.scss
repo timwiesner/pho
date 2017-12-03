@@ -12,7 +12,7 @@ $yelp-color: #d32323;
 
 
 * {
-	font-family: "Nunito";
+	font-family: "Nunito", sans-serif;
 }
 
 body, html {
@@ -82,7 +82,7 @@ header {
 	}
 }
 
-.gooGl {
+.socialLink {
 	max-width: 24px;
 	max-height: 24px;
 	margin-bottom: 10px;
@@ -147,7 +147,7 @@ li.nav-item > a.nav-link.active {
 	font-size: 24px;
 	@include small-screens {
 		text-shadow: 1px 1px black;
-		font-size: 1.23em;
+		font-size: 1.05em;
 	}
 }
 
